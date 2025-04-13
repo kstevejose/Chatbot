@@ -61,9 +61,9 @@ def build_qa_chain():
     return RetrievalQA.from_chain_type(llm=llm, retriever=retriever)
 
 # Streamlit UI setup
-st.title("📘 Answer me Girigir")  # Set the title of the Streamlit app
+st.title("📘 Answer me Baby Yoda")  # Set the title of the Streamlit app
 # Input field for the user to ask a question
-query = st.text_input("Ask a question about the Just Onnu Kuzhapamila?:")
+query = st.text_input("Ask a question about the Docusaurus?:")
 
 # If the user enters a query
 if query:
