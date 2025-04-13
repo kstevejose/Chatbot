@@ -1,0 +1,7 @@
+# .gitignore
+faiss_index/
+*.faiss
+*.index
+
+/venv
+.env
